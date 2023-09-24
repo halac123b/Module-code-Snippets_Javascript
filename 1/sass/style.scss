@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Open+Sans&display=swap");
+
+$font-family: "Open Sans", sans-serif;
+$font-size: 16px;
+$primary-color: #38a4ef;
+
+body {
+  font-size: $font-size;
+  font-family: $font-family;
+  width: 100%;
+  min-height: 100vh;
+  background-color: $primary-color;
+}
