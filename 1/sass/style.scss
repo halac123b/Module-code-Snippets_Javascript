@@ -39,26 +39,26 @@ body {
         font-size: 2rem;
         display: block;
       }
+    }
 
-      textarea {
-        display: block;
-        width: calc(100% - 2rem);
-        height: 200px;
-        border: 0;
-        margin: 1rem 0;
-        padding: 1rem;
-        font-size: $font-size;
-        border-radius: 5px;
+    textarea {
+      display: block;
+      width: calc(100% - 2rem);
+      height: 200px;
+      border: 0;
+      margin: 1rem 0;
+      padding: 1rem;
+      font-size: $font-size;
+      border-radius: 5px;
 
-        &:focus {
-          outline: none;
-        }
+      &:focus {
+        outline: none;
       }
+    }
 
-      .word-count,
-      .character-count {
-        font-weight: bold;
-      }
+    .word-count,
+    .character-count {
+      font-weight: bold;
     }
   }
 }

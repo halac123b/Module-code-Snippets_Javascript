@@ -34,7 +34,7 @@ body .main .card span {
   font-size: 2rem;
   display: block;
 }
-body .main .card textarea {
+body .main textarea {
   display: block;
   width: calc(100% - 2rem);
   height: 200px;
@@ -44,10 +44,10 @@ body .main .card textarea {
   font-size: 16px;
   border-radius: 5px;
 }
-body .main .card textarea:focus {
+body .main textarea:focus {
   outline: none;
 }
-body .main .card .word-count,
-body .main .card .character-count {
+body .main .word-count,
+body .main .character-count {
   font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
