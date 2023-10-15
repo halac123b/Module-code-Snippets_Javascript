@@ -5,4 +5,49 @@ body {
   width: 100%;
   min-height: 100vh;
   background-color: #38a4ef;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  overflow: hidden;
+}
+body .main {
+  width: 60%;
+  text-align: center;
+  margin: 10% auto;
+}
+body .main h1,
+body .main h2 {
+  margin: 0;
+  padding: 0;
+}
+body .main .card {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 5px;
+  width: 200px;
+  display: inline-block;
+  margin: 1rem;
+  color: #333;
+  box-shadow: 15px 15px 0px 0px rgba(0, 0, 0, 0.2);
+}
+body .main .card span {
+  font-size: 2rem;
+  display: block;
+}
+body .main .card textarea {
+  display: block;
+  width: calc(100% - 2rem);
+  height: 200px;
+  border: 0;
+  margin: 1rem 0;
+  padding: 1rem;
+  font-size: 16px;
+  border-radius: 5px;
+}
+body .main .card textarea:focus {
+  outline: none;
+}
+body .main .card .word-count,
+body .main .card .character-count {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
