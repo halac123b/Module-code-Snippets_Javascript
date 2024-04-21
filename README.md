@@ -3,4 +3,5 @@
 <ol>
   <li>Basic syntax.</li>
   <li>Word and character counter.</li>
+  <li>Fetch API.</li>
 </ol>
