@@ -4,4 +4,5 @@
   <li>Basic syntax.</li>
   <li>Word and character counter.</li>
   <li>Fetch API.</li>
+  <li>JS Best practice tips.</li>
 </ol>
