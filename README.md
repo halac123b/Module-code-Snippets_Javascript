@@ -6,3 +6,4 @@ List of modules:
 2. Word and character counter.
 3. Fetch API.
 4. JS Best practice tips.
+5. **Gathio** event system
