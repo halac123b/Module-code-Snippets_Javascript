@@ -18,8 +18,10 @@ console.log({ foo, bar, baz });
 console.table([foo, bar, baz]);
 
 // Start 1 timer với tên gọi loop
-console.time("timer")
+console.time("timer");
 // (do sth..)
 // Dừng timer và in ra tổng thời gian đã chạy đc
-console.timeEnd("timer")
+console.timeEnd("timer");
 
+// Hiển thị stack trace của hàm deleteMe()
+const deleteMe = () => console.trace("bye bye database");
