@@ -15,6 +15,7 @@ fetch(URL)
     .then((data) => console.log(data))
     .catch((error) => console.log(error));
 
+// Cách viết dùng async/await, đc ưu tiên hơn
 async function createUser(userData) {
     try {
         const response = await fetch(URL, {
@@ -22,9 +23,18 @@ async function createUser(userData) {
             headers: {
                 "Content-type": "application/json"
             },
+            // Convert obj sang Json string
             body: JSON.stringify(userData)
         });
         const data = await response.json();
-
+        console.log(data);
+    }
+    catch (error) {
+        console.log(error);
     }
 }
+const user = {
+    name: "John Doe",
+    email: "ha@gmail.com"
+};
+createUser(user);
