@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "app-start": "./start.sh"
+    }
+}
