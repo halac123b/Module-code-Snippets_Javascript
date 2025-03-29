@@ -1,0 +1,8 @@
+{
+    "name": "openmct",
+    "version": "4.1.0-next",
+    "description": "The Open MCT core platform",
+    "scripts": {
+        "start": "npx webpack serve --config ./.webpack/webpack.dev.mjs"
+    }
+}
