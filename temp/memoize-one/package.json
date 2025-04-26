@@ -1,0 +1,11 @@
+{
+    "name": "memoize-one",
+    "version": "6.0.0",
+    "description": "A memoization library which only remembers the latest invocation",
+    "main": "dist/memoize-one.cjs.js",
+    "scripts": {
+        "build": "yarn build:clean && yarn build:dist && yarn build:typescript && yarn build:flow",
+        "build:clean": "yarn rimraf dist",
+        "build:dist": "yarn rollup -c"
+    }
+}

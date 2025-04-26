@@ -1,0 +1,8 @@
+{
+    "name": "webpack-hot-middleware",
+    "version": "2.26.1",
+    "description": "Webpack hot reloading you can attach to your own server",
+    "scripts": {
+        "test": "mocha"
+    }
+}
