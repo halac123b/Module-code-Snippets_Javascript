@@ -7,3 +7,4 @@ List of modules:
 3. Fetch API.
 4. JS Best practice tips.
 5. **Gathio** event system
+6. **RequireJS** package
